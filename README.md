@@ -1,2 +1,1 @@
-# learn-point-impl-react
-学习react，相关知识点和demo会放进来
+日常学习react相关知识点，会把例子放进来
