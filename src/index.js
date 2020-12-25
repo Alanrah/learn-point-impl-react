@@ -152,4 +152,16 @@ function Square(props) {
     <Game />,
     document.getElementById('root')
   );
-  
+
+// 注意： 组件名称必须以大写字母开头。
+// React 会将以小写字母开头的组件视为原生 DOM 标签。例如，<div /> 代表 HTML 的 div 标签，而 <Welcome /> 则代表一个组件，并且需在作用域内使用 Welcome。
+
+
+// js函数实现：React.createElement(tagName, attrs, text);
+// jsx实现：return (<button onClick={() => { console.log('jsx实现'); }}>like</button>)
+// jsx在线编译器：https://babeljs.io/en/repl#?browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=DwIwrgLhD2B2AEcDCAbAlgYwNYF4DeAFAJTw4B88EAFmgM4B0tAphAMoQCGETBe86WJgBMAXJQBOYJvAC-RGWQBQ8FfAAyaQYuAB6cFDhkgA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015%2Creact%2Cstage-2&prettier=false&targets=&version=7.4.3&externalPlugins=
+
+
+// 升级
+// npm update react@next react-dom@next
+// yarn upgrade react@next react-dom@next
